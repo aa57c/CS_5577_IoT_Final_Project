@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char *ssid = "TomorrowLand";        // Replace with your Wi-Fi SSID
-const char *password = "fsai1507";        // Replace with your Wi-Fi password
-const char *serverURL = "http://192.168.0.110:5000/api/send-sensor-data";  // Backend API endpoint
+const char *ssid = "your-wifi-SSID";        // Replace with your Wi-Fi SSID
+const char *password = "your-wifi-password";        // Replace with your Wi-Fi password
+const char *serverURL = "http://your-ip-address:5000/api/send-sensor-data";  // Backend API endpoint
 
 void setup() {
   Serial.begin(115200);  // Initialize Serial communication for debugging (ESP32 to PC)
